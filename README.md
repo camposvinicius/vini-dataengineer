@@ -27,9 +27,9 @@ Como tudo em nossos processos de engenharia de dados, queremos ter o máximo de 
 
 Seguem abaixo links para cada conteúdo:
 
-1) [Python - Conteúdo]()
-2) [Python - Exercícios]()
-3) [Spark - Conteúdo]()
+1) [Python - Conteúdo](1-python/1-1-python-conteudo.md)
+2) [Python - Exercícios](1-python/1-2-python-exercicios.md)
+3) [Spark - Conteúdo](2-spark/2-1-spark-conteudo.md)
 4) [Spark - Exercícios]()
 5) [Terraform - Conteúdo]()
 6) [Terraform - Exercícios]()

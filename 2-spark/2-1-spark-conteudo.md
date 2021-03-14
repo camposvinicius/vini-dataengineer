@@ -12,7 +12,7 @@ Seguem algumas fontes para prática do Spark.
 
 ---
 
-[> Voltar para o conteúdo anterior - 1-3-python-respostas](1-3-python-respostas.md)
+[> Voltar para o conteúdo anterior - 1-3-python-respostas](../1-python/1-3-python-respostas.md)
 
 [> Ir para o próximo conteúdo - 2-2-spark-exercicios](2-2-spark-exercicio.md)
 

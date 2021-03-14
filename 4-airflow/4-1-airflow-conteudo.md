@@ -12,7 +12,7 @@ Abaixo, conteúdos para estudar Airflow:
 
 ---
 
-[> Voltar para o conteúdo anterior - 3-3-terraform-respostas](3-3-terraform-respostas.md)
+[> Voltar para o conteúdo anterior - 3-3-terraform-respostas](../3-terraform/3-3-terraform-respostas.md)
 
 [> Ir para o próximo conteúdo - 4-2-airflow-exercicios](4-2-airflow-exercicios.md)
 

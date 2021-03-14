@@ -10,8 +10,8 @@ Seguem conteúdos para estudar Terraform!
 
 ---
 
-[> Voltar para o conteúdo anterior - 2-3-spark-respostas](2-3-spark-respostas)
+[> Voltar para o conteúdo anterior - 2-3-spark-respostas](2-3-spark-respostas.md)
 
-[> Ir para o próximo conteúdo - 3-2-terraform-exercicios](3-2-terraform-exercicios)
+[> Ir para o próximo conteúdo - 3-2-terraform-exercicios](3-2-terraform-exercicios.md)
 
 [> Voltar para a HOME](../README.md)

@@ -6,8 +6,8 @@ Bons estudos!
 
 ---
 
-[> Voltar para o conteúdo anterior - 2-1-spark-conteudo](2-1-spark-conteudo)
+[> Voltar para o conteúdo anterior - 2-1-spark-conteudo](2-1-spark-conteudo.md)
 
-[> Ir para o próximo conteúdo - 2-3-spark-respostas](2-3-spark-respostas)
+[> Ir para o próximo conteúdo - 2-3-spark-respostas](2-3-spark-respostas.md)
 
 [> Voltar para a HOME](../README.md)

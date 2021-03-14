@@ -24,8 +24,8 @@ Após subir a estrutura, execute a função Lambda para que o arquivo do Titanic
 
 ---
 
-[> Voltar para o conteúdo anterior - 3-1-terraform-conteudo](3-1-terraform-conteudo)
+[> Voltar para o conteúdo anterior - 3-1-terraform-conteudo](3-1-terraform-conteudo.md)
 
-[> Ir para o próximo conteúdo - 3-3-terraform-respostas](3-3-terraform-respostas)
+[> Ir para o próximo conteúdo - 3-3-terraform-respostas](3-3-terraform-respostas.md)
 
 [> Voltar para a HOME](../README.md)

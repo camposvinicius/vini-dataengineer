@@ -12,8 +12,8 @@ Abaixo, conteúdos para estudar Airflow:
 
 ---
 
-[> Voltar para o conteúdo anterior - 3-3-terraform-respostas](3-3-terraform-respostas)
+[> Voltar para o conteúdo anterior - 3-3-terraform-respostas](3-3-terraform-respostas.md)
 
-[> Ir para o próximo conteúdo - 4-2-airflow-exercicios](4-2-airflow-exercicios)
+[> Ir para o próximo conteúdo - 4-2-airflow-exercicios](4-2-airflow-exercicios.md)
 
 [> Voltar para a HOME](../README.md)

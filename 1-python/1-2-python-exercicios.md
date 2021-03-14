@@ -12,6 +12,6 @@ Após terminar os exercícios, vc deve inserir um arquivo **.jpg** com o print d
 
 [> Voltar para o conteúdo anterior - 1-1-python-conteudo](1-1-python-conteudo.md)
 
-[> Ir para o próximo conteúdo - 1-3-python-respostas](1-3-python-respostas)
+[> Ir para o próximo conteúdo - 1-3-python-respostas](1-3-python-respostas.md)
 
 [> Voltar para a HOME](../README.md)

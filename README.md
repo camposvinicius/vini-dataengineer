@@ -9,7 +9,30 @@ Agora, vamos trabalhar algumas skills básicas que serão necessárias para suas
 - Python
 - Spark
 - Terraform
+- Airflow
 
 ## Como nosso onboarding técnico funciona:
 
-Você ...
+Como tudo em nossos processos de engenharia de dados, queremos ter o máximo de automatização quanto possível. Desse modo, para realizar as atividades deste onboarding, você deve:
+
+1) Dar um *fork* neste repositório em sua conta github (ou gitlab);
+2) Criar uma nova branch **dev** para modificações;
+3) Convidar @neylsoncrepalde, @victors145 e @carlosbpy com permissão **Triage** (avaliar pushs e pull requests - ou similar no gitlab); 
+4) Ler/assistir o conteúdo indicado;
+5) Realizar os exercícios propostos para cada módulo;
+6) Subir os exercícios na branch **dev**;
+7) Criar um Pull Request para a branch **main** no seu repositório e marcar @neylsoncrepalde, @victors145 e @carlosbpy como revisores!
+
+**Partiu?**
+
+Seguem abaixo links para cada conteúdo:
+
+1) [Python - Conteúdo]()
+2) [Python - Exercícios]()
+3) [Spark - Conteúdo]()
+4) [Spark - Exercícios]()
+5) [Terraform - Conteúdo]()
+6) [Terraform - Exercícios]()
+7) [Airflow - Conteúdo]()
+8) [Airflow - Exercícios]()
+

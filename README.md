@@ -15,7 +15,7 @@ Agora, vamos trabalhar algumas skills básicas que serão necessárias para suas
 
 Como tudo em nossos processos de engenharia de dados, queremos ter o máximo de automatização quanto possível. Desse modo, para realizar as atividades deste onboarding, você deve:
 
-1) Dar um *fork* neste repositório em sua conta github (ou gitlab);
+1) Clonar o repositório e subir uma cópia em sua conta github (ou gitlab);
 2) Criar uma nova branch **dev** para modificações;
 3) Convidar @neylsoncrepalde, @victors145 e @carlosbpy com permissão **Triage** (avaliar pushs e pull requests - ou similar no gitlab); 
 4) Ler/assistir o conteúdo indicado;

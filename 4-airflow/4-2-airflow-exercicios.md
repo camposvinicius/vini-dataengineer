@@ -6,7 +6,7 @@ Você foi contratado pela A3Data para desenvolver o seu primeiro projeto de Dado
 - Uma API do IBGE (https://servicodados.ibge.gov.br/api/docs/localidades) para extração de informação de regiões, meso e microrregiões no Brasil.
 
 
-Você deve, portanto, construir um pipeline de dados que faça a extração dos dados no MongoDB e na API do IBGE e deposite no Data Lake da empresa. Após a ingestão dos dados no Data Lake, você deve disponibilizar o dado tratado e filtrado apenas para o público de interesse da empresa em um DW. Com os dados no DW, você vai realizar algumas consultas e extrair resultados importantes para a A3Data.
+Você deve, portanto, construir um pipeline de dados que faça a extração dos dados no MongoDB e na API do IBGE e deposite no Data Lake da empresa. Após a ingestão dos dados no Data Lake, você deve disponibilizar o dado tratado e filtrado apenas para o público de interesse da empresa em um DW. 
 
 ## Atividades
 
@@ -18,8 +18,8 @@ Você deverá desempenhar as seguintes atividades:
 4) Criar uma instância RDS de banco de dados relacional de sua escolha (pode criar a instância de DEV de 1CPU e 1GB de ram pois ela faz parte do free tier)
 5) Construir um pipeline que faz a captura de dados do MongoDB e da API do IBGE e deposita no S3
 6) O pipeline também deve fazer a ingestão na base de dados SQL que estará servindo como DW.
-7) Para persistir os dados no DW, você deve ingerir apenas os dados referentes ao público alvo da #VamosJuntos, a saber, mulheres de 20 a 40 anos.
-8) Conectar seu cliente favorito no DW e realizar consultas para responder às perguntas do desafio.
+7) Para persistir os dados no DW, você deve ingerir apenas os dados referentes ao público alvo do projeto, a saber, mulheres de 20 a 40 anos.
+8) Conectar seu cliente favorito no DW e realizar algumas consultas para investigar os dados (livre).
 
 ## Informações relevantes
 

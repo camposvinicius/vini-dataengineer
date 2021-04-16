@@ -7,6 +7,7 @@ Seguem conteúdos para estudar Terraform!
 - [Get Started da Hashicorp - Tutoriais introdutórios](https://learn.hashicorp.com/terraform)
 - [Terraform - Infraestrutura como código - YouTube](https://www.youtube.com/watch?v=tE1WZg9ib8k)
 - [Descomplicando o Terraform - Hashiweek - YouTube](https://www.youtube.com/watch?v=4FellihAcV8&t=210s)
+- [A3Lab de Terraform](https://drive.google.com/file/d/16PkW3fAW3aYoPgtCA85n2hBF6f6tSVov/view?usp=sharing)
 
 ---
 

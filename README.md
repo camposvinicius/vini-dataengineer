@@ -10,6 +10,7 @@ Agora, vamos trabalhar algumas skills básicas que serão necessárias para suas
 - Spark
 - Terraform
 - Airflow
+- Kafka
 
 ## Como nosso onboarding técnico funciona:
 
@@ -35,4 +36,6 @@ Seguem abaixo links para cada conteúdo:
 6) [Terraform - Exercícios](3-terraform/3-2-terraform-exercicios.md)
 7) [Airflow - Conteúdo](4-airflow/4-1-airflow-conteudo.md)
 8) [Airflow - Exercícios](4-airflow/4-2-airflow-exercicios.md)
+9) [Kafka - Conteúdo](5-kafka/5-1-kafka-conteudo.md)
+10) [Kafka - Exercícios](5-kafka/5-2-kafka-exercicios.md)
 

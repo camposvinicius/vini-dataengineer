@@ -66,4 +66,6 @@ Ao terminar o exercício, você deve marcar uma reunião de 15 minutos de aprese
 
 [> Voltar para o conteúdo anterior - 4-1-airflow-conteudo](4-1-airflow-conteudo.md)
 
+[> Ir para o próximo conteúdo - 5-1-kafka-conteudo](../5-kafka/5-1-kafka-conteudo.md)
+
 [> Voltar para a HOME](../README.md)

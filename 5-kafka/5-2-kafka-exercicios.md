@@ -4,7 +4,8 @@ Aqui está um exercicício de kafka implementando a seguinte arquitetura:
 
 ![kafka-arch](https://raw.githubusercontent.com/neylsoncrepalde/kafka-exercise/main/img/kafka_exercise_arch.png)
 
-Este exercício possui uma descrição detalhada [aqui](https://github.com/neylsoncrepalde/kafka-exercise). 
+Este exercício possui uma descrição detalhada 
+<a href="https://github.com/neylsoncrepalde/kafka-exercise" target="_blank">aqui</a>. 
 Clique para acessar o conteúdo e replicar o exercício.
 
 Divirta-se!!!

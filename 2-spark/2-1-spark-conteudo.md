@@ -8,6 +8,7 @@ Seguem algumas fontes para prática do Spark.
 - [Spark Starter Kit - Curso Udemy Gratuito](https://www.udemy.com/course/sparkstarterkit/)
 - [Scala and Spark 2 - Getting Started - Curso Udemy Gratuito](www.udemy.com/course/scala-and-spark-2-getting-started/)
 - [Plataforma Hadoop e framework de aplicação - Curso Coursera Gratuito](www.coursera.org/learn/hadoop)
+- [A3Lab de Spark (vídeo)](https://drive.google.com/file/d/1LKGnFOjfkNPNHcsgb4Mynowl7fxX4II_/view)
 
 
 ---

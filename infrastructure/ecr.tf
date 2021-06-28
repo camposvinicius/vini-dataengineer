@@ -1,5 +1,5 @@
-resource "aws_ecr_repository" "repo" {
-  name                 = "etl-job"
+resource "aws_ecr_repository" "repo-vini" {
+  name                 = "etl-job-vini"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {

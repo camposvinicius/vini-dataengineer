@@ -1,6 +1,6 @@
 # Terraform - Repostas
 
-Insira **AQUI** o link para o repositório criado para o projetinho deste exercício.
+Insira **https://github.com/camposvinicius/vini/tree/dev** o link para o repositório criado para o projetinho deste exercício.
 
 
 ---

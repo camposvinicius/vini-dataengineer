@@ -40,3 +40,5 @@ jobs:
         $COMMAND_IAC validate
         $COMMAND_IAC plan
         $COMMAND_IAC apply -auto-approve
+
+#

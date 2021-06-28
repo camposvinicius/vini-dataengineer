@@ -11,5 +11,5 @@ variable "account" {
 }
 
 variable "lambda_function_name" {
-  default = "vini-lambda"
+  default = "vini_lambda"
 }

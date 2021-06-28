@@ -1,5 +1,5 @@
-resource "aws_iam_role" "glue_role_vini_teste_onboarding" {
-  name = "GlueCrawlerRole"
+resource "aws_iam_role" "glue_role" {
+  name = "ExemploRonyGlueCrawlerRole"
 
   assume_role_policy = <<EOF
 {
@@ -24,8 +24,8 @@ EOF
 }
 
 
-resource "aws_iam_policy" "glue_policy_vini_teste_onboarding" {
-  name        = "AWSGlueServiceRole"
+resource "aws_iam_policy" "glue_policy" {
+  name        = "ExemploRonyAWSGlueServiceRole"
   path        = "/"
   description = "Policy for AWS Glue service role which allows access to related services including EC2, S3, and Cloudwatch Logs"
 
@@ -74,20 +74,14 @@ resource "aws_iam_policy" "glue_policy_vini_teste_onboarding" {
                 "s3:PutObject",
                 "s3:DeleteObject"
             ],
-            "Resource": [
-                "arn:aws:s3:::aws-glue-*/*",
-                "arn:aws:s3:::*/*aws-glue-*/*"
-            ]
+            "Resource": "*"
         },
         {
             "Effect": "Allow",
             "Action": [
                 "s3:GetObject"
             ],
-            "Resource": [
-                "arn:aws:s3:::crawler-public*",
-                "arn:aws:s3:::aws-glue-*"
-            ]
+            "Resource": "*"
         },
         {
             "Effect": "Allow",
@@ -126,14 +120,14 @@ EOF
 
 
 resource "aws_iam_role_policy_attachment" "glue_attach" {
-  role       = aws_iam_role.glue_role_vini_teste_onboarding.arn
-  policy_arn = aws_iam_policy.glue_policy_vini_teste_onboarding.arn
+  role       = aws_iam_role.glue_role.name
+  policy_arn = aws_iam_policy.glue_policy.arn
 }
 
 
 
-resource "aws_iam_role" "lambda_vini_role_teste_onboarding" {
-  name = "LambdaRole"
+resource "aws_iam_role" "lambda" {
+  name = "ExemploRonyLambdaRole"
 
   assume_role_policy = <<EOF
 {
@@ -159,10 +153,10 @@ EOF
 
 
 
-resource "aws_iam_policy" "lambda_vini_policy_teste_onboarding" {
-  name        = "AWSLambdaBasicExecutionRole"
+resource "aws_iam_policy" "lambda" {
+  name        = "ExemploRonyAWSLambdaBasicExecutionRole"
   path        = "/"
-  description = "Provides write permissions to CloudWatch Logs."
+  description = "Provides write permissions to CloudWatch Logs and S3 buckets"
 
   policy = <<EOF
 {
@@ -176,6 +170,13 @@ resource "aws_iam_policy" "lambda_vini_policy_teste_onboarding" {
                 "logs:PutLogEvents"
             ],
             "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:*"
+            ],
+            "Resource": "*"
         }
     ]
 }
@@ -183,7 +184,7 @@ EOF
 }
 
 
-resource "aws_iam_role_policy_attachment" "lambda_attach_vini_teste_onboarding" {
-  role       = aws_iam_role.lambda_vini_role_teste_onboarding.arn
-  policy_arn = aws_iam_policy.lambda_vini_policy_teste_onboarding.arn
+resource "aws_iam_role_policy_attachment" "lambda_attach" {
+  role       = aws_iam_role.lambda.name
+  policy_arn = aws_iam_policy.lambda.arn
 }

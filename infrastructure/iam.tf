@@ -1,5 +1,5 @@
 resource "aws_iam_role" "glue_role" {
-  name = "ExemploRonyGlueCrawlerRole"
+  name = "ViniTesteOnboardingGlueCrawlerRole"
 
   assume_role_policy = <<EOF
 {
@@ -25,7 +25,7 @@ EOF
 
 
 resource "aws_iam_policy" "glue_policy" {
-  name        = "ExemploRonyAWSGlueServiceRole"
+  name        = "ViniTesteOnboardingAWSGlueServiceRole"
   path        = "/"
   description = "Policy for AWS Glue service role which allows access to related services including EC2, S3, and Cloudwatch Logs"
 
@@ -127,7 +127,7 @@ resource "aws_iam_role_policy_attachment" "glue_attach" {
 
 
 resource "aws_iam_role" "lambda" {
-  name = "ExemploRonyLambdaRole"
+  name = "ViniTesteOnboardingLambdaRole"
 
   assume_role_policy = <<EOF
 {
@@ -154,7 +154,7 @@ EOF
 
 
 resource "aws_iam_policy" "lambda" {
-  name        = "ExemploRonyAWSLambdaBasicExecutionRole"
+  name        = "ViniTesteOnboardingAWSLambdaBasicExecutionRole"
   path        = "/"
   description = "Provides write permissions to CloudWatch Logs and S3 buckets"
 

@@ -9,7 +9,7 @@ image:
 variables:
   COMMAND_IAC: terraform #terraform/terragrunt
   BUCKET: "my-bucket"
-  REGION: "xx-xxxx-x"
+  REGION: "us-east-1"
 
 cache:
   paths:

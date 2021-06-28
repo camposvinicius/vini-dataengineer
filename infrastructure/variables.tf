@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "base_bucket_name" {
-  default = "data-lake-teste-vini"
+  default = "vini-datalake"
 }
 
 variable "account" {
@@ -11,5 +11,5 @@ variable "account" {
 }
 
 variable "lambda_function_name" {
-  default = "lambda-vini"
+  default = "exemploViniIngestaoDados"
 }

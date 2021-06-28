@@ -1,9 +1,9 @@
-resource "aws_glue_catalog_database" "TesteViniOnboardingRaw" {
-  name = "onboarding-a3-"
+resource "aws_glue_catalog_database" "raw" {
+  name = " onboarding-a3-"
 }
 
 resource "aws_glue_crawler" "raw" {
-  database_name = aws_glue_catalog_database.TesteViniOnboardingRaw.name
+  database_name = aws_glue_catalog_database.raw.name
   name          = "consumer-zone"
   role          = aws_iam_role.glue_role.arn
 
@@ -23,4 +23,3 @@ EOF
     foo = "bar"
   }
 }
-#

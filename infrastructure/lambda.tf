@@ -1,7 +1,7 @@
-resource "aws_lambda_function" "crawlers_vini" {
+resource "aws_lambda_function" "crawlers_vini_teste_onboarding" {
   filename      = "lambda_function_payload.zip"
   function_name = var.lambda_function_name
-  role          = aws_iam_role.lambda_vini_role.arn
+  role          = aws_iam_role.lambda_vini_role_teste_onboarding.arn
   handler       = "lambda_function.handler"
   memory_size = 128
   timeout = 30

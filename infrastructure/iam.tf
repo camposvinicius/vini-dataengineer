@@ -1,4 +1,4 @@
-resource "aws_iam_role" "glue_role_vini" {
+resource "aws_iam_role" "glue_role_vini_teste_onboarding" {
   name = "GlueCrawlerRole"
 
   assume_role_policy = <<EOF
@@ -24,7 +24,7 @@ EOF
 }
 
 
-resource "aws_iam_policy" "glue_policy_vini" {
+resource "aws_iam_policy" "glue_policy_vini_teste_onboarding" {
   name        = "AWSGlueServiceRole"
   path        = "/"
   description = "Policy for AWS Glue service role which allows access to related services including EC2, S3, and Cloudwatch Logs"
@@ -126,13 +126,13 @@ EOF
 
 
 resource "aws_iam_role_policy_attachment" "glue_attach" {
-  role       = aws_iam_role.glue_role_vini.name
-  policy_arn = aws_iam_policy.glue_policy_vini.arn
+  role       = aws_iam_role.glue_role_vini_teste_onboarding.arn
+  policy_arn = aws_iam_policy.glue_policy_vini_teste_onboarding.arn
 }
 
 
 
-resource "aws_iam_role" "lambda_vini_role" {
+resource "aws_iam_role" "lambda_vini_role_teste_onboarding" {
   name = "LambdaRole"
 
   assume_role_policy = <<EOF
@@ -159,7 +159,7 @@ EOF
 
 
 
-resource "aws_iam_policy" "lambda_vini_policy" {
+resource "aws_iam_policy" "lambda_vini_policy_teste_onboarding" {
   name        = "AWSLambdaBasicExecutionRole"
   path        = "/"
   description = "Provides write permissions to CloudWatch Logs."
@@ -183,7 +183,7 @@ EOF
 }
 
 
-resource "aws_iam_role_policy_attachment" "lambda_attach_vini" {
-  role       = aws_iam_role.lambda_vini_role.name
-  policy_arn = aws_iam_policy.lambda_vini_policy.arn
+resource "aws_iam_role_policy_attachment" "lambda_attach_vini_teste_onboarding" {
+  role       = aws_iam_role.lambda_vini_role_teste_onboarding.arn
+  policy_arn = aws_iam_policy.lambda_vini_policy_teste_onboarding.arn
 }

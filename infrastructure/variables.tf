@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "base_bucket_name" {
-  default = "data-lake"
+  default = "data_lake"
 }
 
 variable "account" {
@@ -11,5 +11,5 @@ variable "account" {
 }
 
 variable "lambda_function_name" {
-  default = "vini_lambda"
+  default = "my-lambda"
 }

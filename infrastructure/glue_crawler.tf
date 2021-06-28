@@ -3,7 +3,7 @@ resource "aws_glue_catalog_database" "TesteViniOnboardingRaw" {
 }
 
 resource "aws_glue_crawler" "raw" {
-  database_name = aws_glue_catalog_database.raw.name
+  database_name = aws_glue_catalog_database.TesteViniOnboardingRaw.name
   name          = "consumer-zone"
   role          = aws_iam_role.glue_role.arn
 

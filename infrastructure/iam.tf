@@ -126,13 +126,13 @@ EOF
 
 
 resource "aws_iam_role_policy_attachment" "glue_attach" {
-  role       = aws_iam_role.glue_role.name
-  policy_arn = aws_iam_policy.glue_policy.arn
+  role       = aws_iam_role.glue_role_vini.name
+  policy_arn = aws_iam_policy.glue_policy_vini.arn
 }
 
 
 
-resource "aws_iam_role" "lambda_vini" {
+resource "aws_iam_role" "lambda_vini_role" {
   name = "LambdaRole"
 
   assume_role_policy = <<EOF
@@ -159,7 +159,7 @@ EOF
 
 
 
-resource "aws_iam_policy" "lambda_vini" {
+resource "aws_iam_policy" "lambda_vini_policy" {
   name        = "AWSLambdaBasicExecutionRole"
   path        = "/"
   description = "Provides write permissions to CloudWatch Logs."
@@ -184,6 +184,6 @@ EOF
 
 
 resource "aws_iam_role_policy_attachment" "lambda_attach_vini" {
-  role       = aws_iam_role.lambda.name
-  policy_arn = aws_iam_policy.lambda.arn
+  role       = aws_iam_role.lambda_vini_role.name
+  policy_arn = aws_iam_policy.lambda_vini_policy.arn
 }

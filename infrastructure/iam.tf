@@ -1,5 +1,5 @@
-resource "aws_iam_role" "glue_role" {
-  name = "GlueCrawlerRole-Vini"
+resource "aws_iam_role" "glue_role_vini" {
+  name = "GlueCrawlerRole"
 
   assume_role_policy = <<EOF
 {
@@ -24,8 +24,8 @@ EOF
 }
 
 
-resource "aws_iam_policy" "glue_policy" {
-  name        = "AWSGlueServiceRole-Vini"
+resource "aws_iam_policy" "glue_policy_vini" {
+  name        = "AWSGlueServiceRole"
   path        = "/"
   description = "Policy for AWS Glue service role which allows access to related services including EC2, S3, and Cloudwatch Logs"
 
@@ -132,7 +132,7 @@ resource "aws_iam_role_policy_attachment" "glue_attach" {
 
 
 
-resource "aws_iam_role" "lambda" {
+resource "aws_iam_role" "lambda_vini" {
   name = "LambdaRole"
 
   assume_role_policy = <<EOF
@@ -159,7 +159,7 @@ EOF
 
 
 
-resource "aws_iam_policy" "lambda" {
+resource "aws_iam_policy" "lambda_vini" {
   name        = "AWSLambdaBasicExecutionRole"
   path        = "/"
   description = "Provides write permissions to CloudWatch Logs."
@@ -183,7 +183,7 @@ EOF
 }
 
 
-resource "aws_iam_role_policy_attachment" "lambda_attach" {
+resource "aws_iam_role_policy_attachment" "lambda_attach_vini" {
   role       = aws_iam_role.lambda.name
   policy_arn = aws_iam_policy.lambda.arn
 }
